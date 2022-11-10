@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.para2{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.login h3{
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.column_1{
+    align-items: center;
+    max-width: 388px;
+    margin: auto;
+}
+.login{
+    margin-top: 10%;
+}
+.logo{
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 105px;
+    padding: 28px 0;
+}
+.login h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    max-height: 60px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    
+}
+header img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 18%;
+    height: 39px;
+    width: auto;
+    align-items: center;
+}
+.column_1 .facebook-login, .haveacc{
+    text-decoration: none;
+    color: black;
+}
+.cantreset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'roboto',sans-serif;
+    color: rgba(var(--fe0,0,55,107),1);
+    
+}
+.newacc{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}

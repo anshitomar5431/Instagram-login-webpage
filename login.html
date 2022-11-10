@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login &#8226; Instagram</title>
+
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="class1">
+            
+            <div class="column_1">
+                <form action="" class="login">
+                    <div class="logo"><img src="Instagram_logo.svg.png" alt="" srcset=""></div>
+                    <input type="text" id="type1" placeholder="Phone number, username, or email">
+                    <input type="password" id="password1" placeholder="Password">
+                    <span id="show1"><input type="checkbox" id="myfunc1" onclick="myFunction1()">Show Password</span> 
+                    <button id="log1" class="form-submit" disabled="disabled">Log In</button>
+                    <span class="has_separator">OR</span>
+                    <a href="#" class="facebook-login">
+                        <i class="fa-brands fa-square-facebook"></i> Log in with Facebook
+                    </a>
+                    <a class="forgot-password" href="forgetpassword.html">Forgot password?</a>
+                </form>
+                <div class="haveacc">
+                    Don't have an account? <a href="#" id="1">Sign up</a>
+                </div>
+
+            </div>
+            
+            <div class="column_2" id="lol">
+
+                
+                <form action="" class="signup">
+                    <div class="logo"><img src="Instagram_logo.svg.png" alt="" srcset=""></div>
+                    <div class="para">Sign up to see photos and videos from your friends.
+                    </div>
+                    <button class="facebook-login"><a href="#">
+                            <i class="fa-brands fa-square-facebook"></i> Log in with Facebook
+                        </a></button>
+                    <span class="has_separator">OR</span>
+                    <input type="text" id="type2" placeholder="Mobile Number or Email">
+                    <input type="text" id="fullname" placeholder="Full Name">
+                    <input type="text" id="username" placeholder="Username">
+                    <input type="password" id="password2" placeholder="Password">
+                    <div></div>
+                    <span id="show2" onclick="myFunction2()">Show Password</span>
+                    
+                    <div class="learn">
+                        People who use our service may have uploaded your contact information to Instagram.
+                        <a href="https://www.facebook.com/help/instagram/261704639352628" target="_blank">Learn More</a>
+                    </div>
+                    
+                        
+                    <div class="signing">By signing up, you agree to our &nbsp;<a href="https://help.instagram.com/581066165581870" target="_blank">Terms</a>&nbsp;,&nbsp;<a href="https://www.facebook.com/privacy/policy" target="_blank">Privacy Policy</a> and 
+                        <a href="https://help.instagram.com/1896641480634370?ref=ig" target="_blank">Cookies Policy.</a>
+                    
+                    </div>
+                    <button id="log2" disabled="disabled" class="form-submit">Sign Up</button>
+
+
+                </form>
+                <div class="nothaveacc">
+                    Have an account? <a href="#" id="2">Log in</a>
+                </div>
+            </div>
+            <div class="getapp"> 
+                <p>Get the app</p> 
+                <div class="getappimg">
+                    <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DFE765ED9-9268-41D7-BC0F-2F2D40576A8D%26utm_content%3Dlo%26utm_medium%3Dbadge" target="_blank"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"></a>
+                </div>
+            
+
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="https://about.meta.com/?utm_source=about.facebook.com&utm_medium=redirect" target="_blank">Meta</a></li>
+            <li><a href="https://about.instagram.com/" target="_blank">About</a></li>
+            <li><a href="https://about.instagram.com/en_US/blog" target="_blank">Blog</a></li>
+            <li><a href="https://about.instagram.com/about-us/careers" target="_blank">Jobs</a></li>
+            <li><a href="https://help.instagram.com/" target="_blank">Help</a></li>
+            <li><a href="https://developers.facebook.com/docs/instagram" target="_blank">API</a></li>
+            <li><a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect" target="_blank">Privacy</a></li>
+            <li><a href="https://help.instagram.com/581066165581870" target="_blank">Terms</a></li>
+            <li><a href="https://www.instagram.com/directory/profiles/" target="_blank">Top Accounts</a></li>
+            <li><a href="https://www.instagram.com/directory/hashtags/" target="_blank">Hashtags</a></li>
+            <li><a href="https://www.instagram.com/explore/locations/" target="_blank">Locations</a></li>
+            <li><a href="https://www.instagram.com/web/lite/" target="_blank">Instagram Lite</a></li>
+            <li><a href="https://www.facebook.com/help/instagram/261704639352628" target="_blank">Contact Uploading & Non-Users</a></li>
+        </ul>
+        <div class="copyright-notice">
+            <select name="language" id="language">
+                <option value="AF">Afrikaans</option>
+                <option value="SQ">Albanian</option>
+                <option value="AR">Arabic</option>
+                <option value="HY">Armenian</option>
+                <option value="EU">Basque</option>
+                <option value="BN">Bengali</option>
+                <option value="BG">Bulgarian</option>
+                <option value="CA">Catalan</option>
+                <option value="KM">Cambodian</option>
+                <option value="ZH">Chinese (Mandarin)</option>
+                <option value="HR">Croatian</option>
+                <option value="CS">Czech</option>
+                <option value="DA">Danish</option>
+                <option value="NL">Dutch</option>
+                <option value="EN" selected="selected">English</option>
+                <option value="ET">Estonian</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finnish</option>
+                <option value="FR">French</option>
+                <option value="KA">Georgian</option>
+                <option value="DE">German</option>
+                <option value="EL">Greek</option>
+                <option value="GU">Gujarati</option>
+                <option value="HE">Hebrew</option>
+                <option value="HI">Hindi</option>
+                <option value="HU">Hungarian</option>
+                <option value="IS">Icelandic</option>
+                <option value="ID">Indonesian</option>
+                <option value="GA">Irish</option>
+                <option value="IT">Italian</option>
+                <option value="JA">Japanese</option>
+                <option value="JW">Javanese</option>
+                <option value="KO">Korean</option>
+                <option value="LA">Latin</option>
+                <option value="LV">Latvian</option>
+                <option value="LT">Lithuanian</option>
+                <option value="MK">Macedonian</option>
+                <option value="MS">Malay</option>
+                <option value="ML">Malayalam</option>
+                <option value="MT">Maltese</option>
+                <option value="MI">Maori</option>
+                <option value="MR">Marathi</option>
+                <option value="MN">Mongolian</option>
+                <option value="NE">Nepali</option>
+                <option value="NO">Norwegian</option>
+                <option value="FA">Persian</option>
+                <option value="PL">Polish</option>
+                <option value="PT">Portuguese</option>
+                <option value="PA">Punjabi</option>
+                <option value="QU">Quechua</option>
+                <option value="RO">Romanian</option>
+                <option value="RU">Russian</option>
+                <option value="SM">Samoan</option>
+                <option value="SR">Serbian</option>
+                <option value="SK">Slovak</option>
+                <option value="SL">Slovenian</option>
+                <option value="ES">Spanish</option>
+                <option value="SW">Swahili</option>
+                <option value="SV">Swedish </option>
+                <option value="TA">Tamil</option>
+                <option value="TT">Tatar</option>
+                <option value="TE">Telugu</option>
+                <option value="TH">Thai</option>
+                <option value="BO">Tibetan</option>
+                <option value="TO">Tonga</option>
+                <option value="TR">Turkish</option>
+                <option value="UK">Ukrainian</option>
+                <option value="UR">Urdu</option>
+                <option value="UZ">Uzbek</option>
+                <option value="VI">Vietnamese</option>
+                <option value="CY">Welsh</option>
+                <option value="XH">Xhosa</option>
+            </select>
+            &copy; 2022 Instagram from Meta
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d359baa8b2.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script>
+        function myFunction1() {
+          var x = document.getElementById("password1");
+          if (x.type === "password") {
+            x.type = "text";
+
+          } else {
+            x.type = "password";
+          }
+        }
+        function myFunction2() {
+          var x = document.getElementById("password2");
+          if (x.type === "password") {
+            x.type = "text";
+
+          } else {
+            x.type = "password";
+          }
+        }
+
+        </script>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-auth.js";
+    import { getDatabase, set, ref ,update } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-database.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAL-pc2-N4sVLu_ec7uRM0oUZ-5GTkzCao",
+      authDomain: "instagram-clone-633a3.firebaseapp.com",
+      databaseURL: "https://instagram-clone-633a3-default-rtdb.firebaseio.com",
+      projectId: "instagram-clone-633a3",
+      storageBucket: "instagram-clone-633a3.appspot.com",
+      messagingSenderId: "615505874658",
+      appId: "1:615505874658:web:bca10072b426e6a58f18bb"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth();
+    const database = getDatabase(app);
+    const analytics = getAnalytics(app);
+    log2.addEventListener('click', (e) => {
+        event.preventDefault();
+        var email = document.getElementById('type2').value;
+        var password = document.getElementById('password2').value;
+        var username = document.getElementById('username').value;
+        var fullname = document.getElementById('fullname').value;
+      createUserWithEmailAndPassword(auth, email,fullname,username, password)
+            .then((userCredential) => {
+                 // Signed in 
+                 const user = userCredential.user;
+                 // ...
+                 const db = getDatabase();
+                 set(ref(database, 'users/' + user.uid), {
+
+                     email: email,
+                     password: password
+
+                 })
+                     .then(() => {
+                         // Data saved successfully!
+                         alert('user created successfully');
+                     })
+                     .catch((error) => {
+                         // The write failed...
+                         alert(error);
+                     });
+
+             })
+             .catch((error) => {
+                 const errorCode = error.code;
+                 const errorMessage = error.message;
+                 // ..
+                 alert(errorMessage);
+             });
+     })
+
+     log1.addEventListener('click', (e) => {
+        event.preventDefault();
+        var email_1 = document.getElementById('type1').value;
+        var password_1 = document.getElementById('password1').value;
+     
+            signInWithEmailAndPassword(auth, email_1, password_1)
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                var lgDate = new Date();
+                update(ref(database, 'users/' + user.uid), {
+
+                   last_login:lgDate,
+
+                })
+                    .then(() => {
+                        // Data saved successfully!
+                        alert('user logged in successfully');
+                    })
+                    .catch((error) => {
+                        // The write failed...
+                        alert(error);
+                    });
+                
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                alert(errorMessage);
+            });
+        });
+  </script>
+
+</html>

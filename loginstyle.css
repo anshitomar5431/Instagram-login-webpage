@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.login .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.logo img {
+  width: 179px;
+  height: auto;
+}
+.getapp {
+  padding: 15px 25px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+  
+.getapp p{
+  color: rgba(var(--i1d,38,38,38),1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 300;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+.getappimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.getappimg img {
+  margin: 3px;
+  width: 136px;
+  height: 40px;
+}
+
+.login,
+.haveacc {
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  padding: 15px 35px;
+  width: auto;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  border-radius: 1px;
+  box-shadow: 10px 10px 54px -6px rgba(255, 255, 255, 0.75);
+}
+.login input {
+  background-color: rgba(245, 245, 245, 0.8);
+  box-sizing: unset;
+  margin: 3px 0;
+  height: 36px;
+  overflow: hidden;
+  padding-left: 3px;
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  border-radius: 3px;
+  outline: none;
+}
+.login input:focus{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.login input::placeholder {
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "Abyssinica SIL", serif;
+  color: rgba(var(--i1d,38,38,38),1);
+}
+
+.login .form-submit {
+  margin: 12px 0;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 9px;
+  color: white;
+  background-color: rgba(var(--d69, 0, 149, 246), 1);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+.login .has_separator {
+  margin: 8px 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(#000 0 0) left, linear-gradient(#000 0 0) right;
+  opacity: 0.3;
+  background-size: 42% 1px;
+  background-repeat: no-repeat;
+  font-size: small;
+  font-weight: bold;
+}
+.facebook-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 15px 0;
+  color: #385185;
+  font-family: 'roboto',sans-serif;
+  font-weight: 500%;
+}
+.facebook-login i {
+  font-size: large;
+  margin-right: 8px;
+}
+.forgot-password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 8px 0;
+  color: rgba(var(--fe0,0,55,107),1);
+  font-weight: lighter;
+  font-family: 'roboto',sans-serif;
+  font-size: small;
+}
+#log1{
+    cursor: pointer;
+}
+#log1[disabled]{
+  background-color: rgba(var(--d69, 0, 149, 246), 0.4);
+  pointer-events: none;
+}
+#log2[disabled]{
+  background-color: rgba(var(--d69, 0, 149, 246), 0.4);
+  pointer-events: none;
+}
+.haveacc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 25px 0;
+    
+}
+.haveacc a{
+  text-decoration: none;
+  color: rgba(var(--d69,0,149,246),1);
+}
+.footer{
+  padding: 0 16px;
+  margin: 52px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(var(--f52,142,142,142),1);
+  font-weight: 300;
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+}
+.footer ul{
+  margin: 10px 0;
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  row-gap: 10px;
+}
+.footer ul li a{
+  text-decoration: none;
+  margin: 8px;
+  color: rgba(var(--f52,142,142,142),1);
+  font-weight: 300;
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+}
+.footer select{
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+  width: 69px;
+  background-color: transparent;
+  color: rgba(var(--f52,142,142,142),1);
+  font-weight: 300;
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+}
+.signup,.nothaveacc{
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  padding: 25px 35px;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  border-radius: 1px;
+  box-shadow: 10px 10px 54px -6px rgba(255, 255, 255, 0.75);
+}
+.signup input{
+  background-color: rgba(245, 245, 245, 0.8);
+  width: 100%;
+  margin: 2px 0;
+  height: 35px;
+  overflow: hidden;
+  padding-left: 3px;
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  border-radius: 3px;
+  outline: none;
+}
+.signup input:focus{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.signup input::placeholder{
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "Abyssinica SIL", serif;
+  color: rgba(var(--i1d,38,38,38),1);
+}
+.signup .facebook-login{
+  
+  background-color:  rgba(var(--d69,0,149,246),1);
+  width: 100%;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.signup .facebook-login i{
+  font-size: large;
+}
+.signup button a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.signup .form-submit{
+  margin: 12px 0;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 9px;
+  color: white;
+  background-color: rgba(var(--d69, 0, 149, 246), 1);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+.signup .has_separator {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(#000 0 0) left, linear-gradient(#000 0 0) right;
+  opacity: 0.3;
+  background-size: 40% 1px;
+  background-repeat: no-repeat;
+  font-size: medium;
+  font-weight: bolder;
+  color: black;
+}
+.signup .para{
+  color: rgba(var(--f52,142,142,142),1);
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+ .learn{
+  color: rgba(var(--f52,142,142,142),1);
+  display: inline;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  margin: 8px 0;
+}
+.learn a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(var(--f52,142,142,142),1);
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  display: inline;
+}
+.signing{
+  color: rgba(var(--f52,142,142,142),1);
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  display: inline;
+  text-align: center;
+  margin: 8px 0;
+}
+
+
+.signing a{
+  text-decoration: none;
+  color: rgba(var(--f52,142,142,142),1);
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: bold;
+  display: inline;
+}
+.signup .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+.nothaveacc{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.nothaveacc a{
+  text-decoration: none;
+  color: rgba(var(--d69,0,149,246),1);
+}
+
+
+.login #show1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.login #show1 input{
+  margin-right: 3px;
+}
+
+#show2{
+  cursor: pointer;
+}
